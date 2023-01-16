@@ -405,23 +405,7 @@ footer {
 
 @media (max-width: 750px) {
   .container-perfil {
-    padding: 20px 0px 0px 0px; }
-  .container-login, .container-register {
-    width: 500px;
-    height: 400px; }
-  .login {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    margin: auto;
-    width: 300px;
-    height: 100px;
-    padding: 10px 20px; }
-  .login a i {
-    top: 1px; }
-  .login a {
-    margin: 2px; } }
+    padding: 20px 0px 0px 0px; } }
 
 @media (max-width: 540px) {
   .container-login, .container-register {
