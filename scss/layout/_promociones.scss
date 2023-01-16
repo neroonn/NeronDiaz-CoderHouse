@@ -1,0 +1,32 @@
+// promocion pagina 1
+
+.promocion{
+    height: 35px;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & i{
+    padding-right: 10px;
+}
+}
+
+.anuncio{
+    background-image: url(../assets/images/lacoste1.webp);
+    height: calc(50vh - 50px);
+    background-size: cover;
+    background-position: center center;
+
+}
+
+
+// promocion pagina 2
+
+.backvideo{
+    width: 100%;
+    height: calc(50vh - 50px);
+    object-fit: cover;
+}
