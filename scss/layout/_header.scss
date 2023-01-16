@@ -1,8 +1,19 @@
-// NO REALIZO ANIDAMIENTO EN EL HEADER PORQUE OCASIONA BUGS. 
 nav{
     background-color: $nav-color;
     height: 60px;
     width: 100%;
+
+    .ul-nav{
+        display: flex;
+        justify-content: center;
+        line-height: 60px;
+    }
+
+    ul li a{
+        color: #fff;
+        padding: 0px 60px;
+    }
+
 }
 
 .enlace{
@@ -12,17 +23,6 @@ nav{
 
 .logo{
     height: 40px;
-}
-
-nav .ul-nav{
-    display: flex;
-    justify-content: center;
-    line-height: 60px;
-}
-
-nav ul li a{
-    color: #fff;
-    padding: 0px 60px;
 }
 
 .checkbtn{
@@ -49,32 +49,33 @@ nav ul li a{
     position: relative;
     justify-content: center;
 
-}
-.buscar input{
-	width: 250px;
-	height: 30px;
-	padding: 0 20px;
-	font-size: 1rem;
-	outline: none;
-	border: 1px solid #f8f9fa;	
-	border-radius: 30px;
+    & input{
+        width: 250px;
+        height: 30px;
+        padding: 0 20px;
+        font-size: 1rem;
+        outline: none;
+        border: 1px solid #f8f9fa;	
+        border-radius: 30px;
+    }
 }
 
 .buscar2{
     display: flex;
     justify-content: center;
     padding: 6px 0 0 50px;
-	line-height: 25px 
-}
-.buscar2 input{
-    margin-top: 10px;
-	width: 250px;
-	height: 30px;
-	padding: 0 20px;
-	font-size: 1rem;
-	outline: none;
-	border: 1px solid #f8f9fa;	
-	border-radius: 30px;
+	line-height: 25px;
+
+    & input{
+        margin-top: 10px;
+        width: 250px;
+        height: 30px;
+        padding: 0 20px;
+        font-size: 1rem;
+        outline: none;
+        border: 1px solid #f8f9fa;	
+        border-radius: 30px;
+    }    
 }
 
 .items{
@@ -83,12 +84,13 @@ nav ul li a{
 	padding-right: 50px;
     top: 20px;
     right: 0;
+
+    & a{
+        padding-left: 50px;
+        color: #fff;
+    }
 }
 
-.items a{
-    padding-left: 50px;
-    color: #fff;
-}
 
 #check{
     display: none;
