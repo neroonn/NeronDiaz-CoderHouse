@@ -171,34 +171,31 @@ nav {
   margin-bottom: 30px;
   padding-top: 50px; }
 
-.container-related-products .card-list-products {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center; }
-  .container-related-products .card-list-products .card-img {
-    margin-bottom: 15px;
-    padding: 10px; }
-    .container-related-products .card-list-products .card-img img {
-      height: 400px;
-      /* width: 250px; */
-      object-fit: cover;
-      border-radius: 20px; }
-      .container-related-products .card-list-products .card-img img:hover {
-        transform: scale(1.1);
-        transition: 0.2s; }
-  .container-related-products .card-list-products .text-product {
-    color: #252525;
-    font-weight: 300;
-    line-height: 1.4;
-    text-align: center; }
-    .container-related-products .card-list-products .text-product h3 {
-      font-size: 1rem; }
-    .container-related-products .card-list-products .text-product p {
-      color: #666;
-      font-size: 13px; }
-  .container-related-products .card-list-products .price {
-    text-align: center;
-    margin-bottom: 40px; }
+.container-related-products .card-list-products .card-img {
+  margin-bottom: 15px;
+  padding: 10px; }
+  .container-related-products .card-list-products .card-img img {
+    height: 400px;
+    /* width: 250px; */
+    object-fit: cover;
+    border-radius: 20px; }
+    .container-related-products .card-list-products .card-img img:hover {
+      transform: scale(1.1);
+      transition: 0.2s; }
+
+.container-related-products .card-list-products .text-product {
+  font-weight: 300;
+  line-height: 1.4;
+  text-align: center; }
+  .container-related-products .card-list-products .text-product h3 {
+    font-size: 1rem; }
+  .container-related-products .card-list-products .text-product p {
+    color: #666;
+    font-size: 13px; }
+
+.container-related-products .card-list-products .price {
+  text-align: center;
+  margin-bottom: 40px; }
 
 .maps {
   margin-bottom: 20px; }
@@ -463,3 +460,11 @@ footer {
     resize: none; }
     .container-contactanos .contactanos-form #mensaje:focus {
       border-color: #358efb; }
+
+.text-product {
+  color: #252525; }
+
+.card-list-products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }

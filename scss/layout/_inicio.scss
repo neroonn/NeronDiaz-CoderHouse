@@ -7,9 +7,6 @@
 
      
  .card-list-products{
-	display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 
     .card-img{
         margin-bottom: 15px;
@@ -31,7 +28,7 @@
      }
     
      .text-product{
-        color: #252525;
+        
         font-weight: 300;
         line-height: 1.4;
         text-align: center;
