@@ -160,7 +160,6 @@ nav{
         font-size: 20px;
     }
 
-
     #check:checked ~ ul{
         left: 0;
     }
@@ -183,9 +182,6 @@ nav{
 }
 
 @media (max-width: 505px) {
-    /* .buscar input{
-        width: 100px;
-    } */
     .buscar input{
         display: none;
     }
